@@ -33,6 +33,7 @@ function ListarCategorias() {
                     wrapperClass="dna-wrapper mx-auto"
                 />
             )}
+            <div className='min-h-[90vh] bg-gray-200'>
             <div className="
                 bg-gray-200 
                 flex 
@@ -54,6 +55,7 @@ function ListarCategorias() {
 
                     </div>
                 </div>
+            </div>
             </div>
         </>
     );

@@ -48,6 +48,7 @@ function DeletarCategoria() {
     }
 
     return (
+    <div className='min-h-[90vh] bg-gray-200'>
         <div className='container w-1/3 mx-auto'>
             <h1 className='text-4xl text-center py-4'>Deletar Categoria</h1>
             <p className='text-center font-semibold mb-4'>
@@ -57,7 +58,7 @@ function DeletarCategoria() {
                     className='py-2 px-6 bg-slate-600 text-white font-bold text-2xl'>
                     Categoria
                 </header>
-                <p className='p-8 text-3xl bg-white h-full'>{categoria.tipo}</p>
+                <p className='p-8 text-3xl bg-white h-full'>{categoria.nome}</p>
                 <div className="flex">
                     <button
                         className='text-slate-100 bg-red-400 hover:bg-red-600 w-full py-2'
@@ -84,6 +85,7 @@ function DeletarCategoria() {
                 </div>
             </div>
         </div>
+    </div>    
     )
 }
 export default DeletarCategoria
